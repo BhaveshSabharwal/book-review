@@ -4,16 +4,47 @@
 <head>
 
 </head>
+<header>
+    <center>
+        <img src="../book-review/bb-logo.png" height="60" alt="Book banter logo">
+        <h2>
+            <font size="7" color="#334c61">Bookish Banter and Reviews</font>
+        </h2>
+        <h2>
+            <font size="6">Register</font>
+        </h2>
+    </center>
+</header>
 
 <body>
     <center>
-        <form>
-            <label for="Name">Enter name:<br><input type="text"></label><br><br>
-            <label for="Email">Enter email:<br><input type="email"></label><br><br>
-            <label for="password">Enter password:<br><input type="password"></label><br><br>
-            <label for="confirmPassword">Conform password<br><input type="password"></label><br><br>
+        <form action="index.html">
+            <label for="Name">Enter name:</label><br><input type="text" required><br><br>
+            <label for="Email">Enter email:</label><br><input type="email" required><br><br>
+            <label for="Age">Enter age:</label><br><input type="number" min="16" required><br><br>
+            <label for="password">Enter password:</label><br><input type="password" minlength="8"
+                placeholder="Minimum 8 characters long" required><br><br>
+            <label for="confirmPassword">Confirm password</label><br><input type="password" minlength="8"
+                placeholder="Minimum 8 characters long" required><br><br>
+            <label for="Gender">Gender: <br><select type="select"></label>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="notSay">Prefer not to say</option>
+            </select><br><br>
+            <button type="submit">Register</button>
+
         </form>
     </center>
 </body>
+<footer>
+    <center>
+        <br><br>
+        <a href="index.html">Home</a> &nbsp; &nbsp; <a href="about.html">About us</a>
+        <br><br>
+        Got suggestions? Connect with us <br>
+        <img src="https://www.iconpacks.net/icons/1/free-mail-icon-142-thumb.png" height="15"> suggestions@bbar.com
+        <br><br>copyright &copy 2024 Bhavesh Sabhrwal
+    </center>
+</footer>
 
 </html>
